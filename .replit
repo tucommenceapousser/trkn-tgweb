@@ -1,0 +1,39 @@
+entrypoint = "main.py"
+modules = ["python-3.11", "nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["streamlit", "run", "main.py"]
+deploymentTarget = "autoscale"
+
+[workflows]
+runButton = "Run Project"
+
+[[workflows.workflow]]
+name = "Run Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Streamlit Server"
+
+[[workflows.workflow]]
+name = "Streamlit Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "streamlit run main.py"
+
+[[ports]]
+localPort = 5000
+externalPort = 80

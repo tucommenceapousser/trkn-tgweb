@@ -41,7 +41,10 @@ streamlit run main.py
 
 4. Accédez à l'application via http://localhost:8501.
 
+## 🌐 Démo en ligne
 
+Découvrez la démo en ligne de **trkn-tgweb** ici :  
+[🔗 trkn-tgweb Demo](https://trkn-tgweb.onrender.com)
 
 🛡️ Authentification
 

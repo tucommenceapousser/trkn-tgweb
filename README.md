@@ -57,7 +57,7 @@ Et voilà ! Votre bot est maintenant prêt à envoyer et recevoir des messages v
 1. Clonez ce dépôt :
 
    ```bash
-   git clone https://github.com/trhacknon/trkn-tgweb.git
+   git clone https://github.com/tucommenceapousser/trkn-tgweb.git
    cd trkn-tgweb
 
 2. Installez les dépendances requises :
@@ -89,10 +89,10 @@ P@ssw0rd
 Vous pouvez déployer **trkn-tgweb** facilement sur différentes plateformes d'hébergement. Cliquez sur les boutons ci-dessous pour commencer :
 
 ### 1. Déployer sur Replit
-[![Déployer sur Replit](https://img.shields.io/badge/Deploy%20on%20Replit-FF6C37?style=for-the-badge&logo=replit&logoColor=lime)](https://replit.com/new/github/trhacknon/trkn-tgweb)
+[![Déployer sur Replit](https://img.shields.io/badge/Deploy%20on%20Replit-FF6C37?style=for-the-badge&logo=replit&logoColor=lime)](https://replit.com/new/github/tucommenceapousser/trkn-tgweb)
 
 ### 2. Déployer sur Render
-[![Déployer sur Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/trhacknon/trkn-tgweb)
+[![Déployer sur Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tucommenceapousser/trkn-tgweb)
 
 🛠️ Développement
 

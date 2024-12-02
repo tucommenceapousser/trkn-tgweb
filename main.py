@@ -75,8 +75,15 @@ if st.session_state.page == "main":
         </style>
     """, unsafe_allow_html=True)
     st.image("https://c.top4top.io/p_3257z2e3f1.jpg", width=500)
-    st.title("🌍 Free Gaza Telegram Bot")
-
+    st.title("🌍 Free Gaza Telegram Bot Dev by")
+    st.markdown(
+        """
+        <h1 style='text-align: center; color: #FF0000; font-size: 2.5em; text-shadow: 0 0 5px #33FF33, 0 0 10px #33FF33, 0 0 20px #33FF33;'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Anarchy-symbol.svg' width='50' style='vertical-align: middle;'>TRHACKNON<img src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Anarchy-symbol.svg' width='50' style='vertical-align: middle;'>
+        </h1>
+        """,
+        unsafe_allow_html=True,
+    )
     token = st.text_input("🔑 Entrez votre token API Telegram Bot:", type="password", key="token")
 
     if token:

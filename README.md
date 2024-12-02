@@ -106,4 +106,4 @@ Ce projet est sous licence libre. Utilisez-le et modifiez-le selon vos besoins.
 ---
 
 💻 Développeur : trhacknon
-🌐 trhacknon.dev | 📬 trhacknon@protonmail.ch
+🌐 trhacknon.dev | 📬 jamaysanmontrhack@protonmail.ch

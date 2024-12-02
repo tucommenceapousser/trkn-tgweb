@@ -6,6 +6,37 @@ Créé par **trhacknon**, ce projet vise à simplifier l'envoi et la gestion des
 ## SCREENSHOT
 ![trkn-tgweb Screenshot](https://g.top4top.io/p_325854bfp0.jpg)
 
+## 🤖 Comment créer un bot Telegram avec BotFather
+
+Pour utiliser **trkn-tgweb**, vous aurez besoin d'un bot Telegram et de son token d'API. Voici les étapes pour créer votre bot avec [BotFather](https://t.me/botfather) :
+
+### 1. Démarrer BotFather
+1. Ouvrez Telegram.
+2. Recherchez **BotFather** ou cliquez directement ici : [BotFather](https://t.me/botfather).
+3. Cliquez sur **Start** pour commencer.
+
+### 2. Créer un nouveau bot
+1. Tapez la commande suivante :
+
+/newbot
+
+2. BotFather vous demandera un nom pour votre bot. Entrez un nom (exemple : `trknwebbot`).
+3. BotFather vous demandera ensuite un **nom d'utilisateur** unique pour le bot, qui doit se terminer par `bot`.  
+Exemple : `trknwebbot_bot`.
+
+### 3. Obtenir le token d'API
+Une fois le bot créé, BotFather vous fournira un **token d'API**. Il ressemblera à ceci :
+
+123456789:ABCDefghIJKlmnopQRSTUvwxYZ12345
+
+**Conservez ce token précieusement**, vous en aurez besoin pour configurer votre bot avec **trkn-tgweb**.
+
+### 4. Configurer votre bot avec trkn-tgweb
+1. Accédez à votre interface [trkn-tgweb](https://trkn-tgweb.onrender.com).
+2. Entrez le token d'API dans le champ correspondant.
+3. Cliquez sur **Valider** pour connecter votre bot.
+
+Et voilà ! Votre bot est maintenant prêt à envoyer et recevoir des messages via l'interface **trkn-tgweb**.
 
 ## 📜 Fonctionnalités
 

@@ -42,7 +42,7 @@ if st.session_state.page == "login":
     st.image("https://a.top4top.io/p_3257d4x8a0.png", width=300)
     password = st.text_input("🔑 Entrez le mot de passe:", type="password")
 
-    if password == "trkntrkn":
+    if password == "P@ssw0rd":
         st.session_state.authenticated = True
         st.success("Connexion réussie! ✅")
         st.session_state.page = "main"

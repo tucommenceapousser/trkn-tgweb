@@ -36,7 +36,9 @@ pip install -r requirements.txt
 
 3. Lancez l'application :
 
-streamlit run main.py
+```
+streamlit run --server.enableCORS=true --server.enableWebsocketCompression=false --server.runOnSave=false main.py
+```
 
 
 4. Accédez à l'application via http://localhost:8501.
@@ -50,8 +52,6 @@ Découvrez la démo en ligne de **trkn-tgweb** ici :
 
 Mot de passe par défaut pour accéder à l'application :
 P@ssw0rd
-
-🌟 Capture d'écran
 
 
 

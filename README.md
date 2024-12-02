@@ -84,7 +84,15 @@ Découvrez la démo en ligne de **trkn-tgweb** ici :
 Mot de passe par défaut pour accéder à l'application :
 P@ssw0rd
 
+## 🚀 Déployer trkn-tgweb
 
+Vous pouvez déployer **trkn-tgweb** facilement sur différentes plateformes d'hébergement. Cliquez sur les boutons ci-dessous pour commencer :
+
+### 1. Déployer sur Replit
+[![Déployer sur Replit](https://replit.com/badge/github)](https://replit.com/new/github/trhacknon/trkn-tgweb)
+
+### 2. Déployer sur Render
+[![Déployer sur Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/trhacknon/trkn-tgweb)
 
 🛠️ Développement
 
